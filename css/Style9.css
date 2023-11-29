@@ -1,0 +1,374 @@
+@font-face {
+    font-family: "Avenir-bold";
+    font-weight: bolder;
+    src: url("../fonts/Avenir.ttc");
+}
+@font-face {
+    font-family: "Paperland";
+    src: url("../fonts/Paperland.ttf");
+    font-weight: normal;
+}
+
+body{
+    margin: 0px;
+    cursor: url('../img/cursor.png'), pointer;
+    background-color: black;
+}
+
+img.clumsyscale {
+    position: absolute;
+    width: 33%;
+    height: auto;
+    z-index: 6;
+    right: 3%;
+    top: 350px;
+}
+
+img.starburst {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: -25%;
+    left: 4%;
+    z-index: 6;
+    rotate: 25deg;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.background {
+    background-image: url(../img/Entry_9_Prawns.jpg);
+    background-size: contain;
+    position: relative;
+}
+
+.main1 {
+    padding: 2%
+}
+
+.main2{
+    width: 100%;
+    height: 1400px;
+    background-color: #f73800;
+    padding: 8%;
+    position: relative;
+}
+
+#casserole {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 250px;
+}
+
+@keyframes animation {
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
+#rawprawn1 {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    top: 27%;
+}
+
+#rawprawn1:hover {
+    cursor: url('../img/cursor_hover.png'), auto;
+}
+
+#cookprawn1 {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    top: 27%;
+}
+
+#rawprawn2 {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 30%;
+    top: 38%;
+    rotate: 90deg;
+}
+
+#rawprawn2:hover {
+    cursor: url('../img/cursor_hover.png'), auto;
+}
+
+#cookprawn2 {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 30%;
+    top: 38%;
+    rotate: 90deg;
+}
+
+#rawprawn3 {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 35%;
+    top: 29%;
+    rotate: -40deg;
+}
+
+#rawprawn3:hover {
+    cursor: url('../img/cursor_hover.png'), auto;
+}
+
+#cookprawn3{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 35%;
+    top: 29%;
+    rotate: -40deg;
+}
+
+.main3{
+    width: 100%;
+    height: 900px;
+    background-color: #960023;
+    position: relative;
+    padding-top: 3%;
+}
+
+#prawndish {
+    width: 30%;
+    height: auto;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    border: 4px solid yellow;
+}
+
+.main4 {
+    background-color: #960023;
+}
+
+
+h1{
+    font-family: "Paperland";
+    font-size: 23vw;
+    font-weight: normal;
+    line-height: 10px;
+    letter-spacing: -17px;
+    color: #f73800;
+    text-align: center;
+    transform: skew(-15deg);
+    margin-bottom: 100px;
+}
+
+h2{
+    position: absolute;
+    bottom: 8%;
+    margin-right:25%;
+    margin-left: 20%;
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 3vw;
+    line-height: 110%;
+    letter-spacing: -1px;
+    text-align: right;
+    color: white;
+}
+
+h3{
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 5vw;
+    line-height: 110%;
+    color: #fff500;
+    margin-right: 40%;
+}
+
+h4{
+    font-family: "Paperland";
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 110%;
+    text-align: center;
+    color: #fff500;
+}
+
+p{
+    font-family: "Avenir";
+    font-size: 35px;
+    font-weight: lighter;
+    color: white;
+    line-height: 110%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.PREV{
+    float: left;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(2deg);
+}
+
+.NEXT{
+    float: right;
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    transform: rotate(-1deg);
+}
+
+a{
+    color: #db0000;
+    font-size: 40px;
+    background-color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+a:hover{
+    color: black;
+    font-size: 50px;
+    cursor: url('../img/cursor_hover.png'), auto;
+}
+
+.BACKTOTOP{
+    font-family: "Paperland";
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    text-align: center;   
+    margin-bottom: 40px; 
+}
+
+.footer{
+    background-color: black;
+    height: 30px;
+}
+
+@media (max-width: 700px) {
+    img.clumsyscale {
+        top: 200px;
+    }
+    h1{
+        font-size: 29vw;
+        margin-bottom: 35px;
+        margin-top: 200px;
+    }
+    h2{
+        font-size: 27px;
+        margin-left: 5%;
+    }
+    h3{
+        font-size: 35px;
+        margin-right: 15%;
+
+    }
+    .main2{
+        height: 650px;
+        padding-top: 15%;
+    }
+    p{
+        font-size: 25px;
+    }
+    #casserole {
+        top: 170px;
+    }
+    img.starburst {
+        top: -10%;
+        width: 35%;
+    }
+    #prawndish {
+        width: 80%;
+    }
+    #rawprawn1 {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        left: 12%;
+        top: 30%;
+    }
+  
+    #cookprawn1 {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        left: 12%;
+        top: 30%;
+    }
+    
+    #rawprawn2 {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        left: 30%;
+        top: 38%;
+        rotate: 90deg;
+    }
+    
+    #cookprawn2 {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        left: 30%;
+        top: 38%;
+        rotate: 90deg;
+    }
+    
+    #rawprawn3 {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        left: 38%;
+        top: 30%;
+        rotate: -40deg;
+    }
+    
+    #cookprawn3{
+        width: 25%;
+        height: auto;
+        position: absolute;
+        left: 38%;
+        top: 30%;
+        rotate: -40deg;
+    }
+    a{
+        font-size: 30px;
+    }
+    
+    a:hover{
+        font-size: 35px;
+    }
+}
+@media (max-width: 1250px) and (min-width: 700px) {
+    h1{
+        font-size: 28vw;
+        margin-bottom: 70px;
+        margin-top: 260px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    .main2{
+        height: 1000px;
+    }
+    #casserole {
+        top: 160px;
+    }
+    img.starburst {
+        top: -19%;
+    }
+    #prawndish {
+        width: 40%;
+    }
+}
